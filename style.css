@@ -1,0 +1,29 @@
+body {
+    background-color: dfcab0;
+}
+
+.colonne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.droite {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.experience {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 240px;
+}
+
+#image {
+    border-radius: 50%;
+}
+.titre {
+    color: 9c733f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
